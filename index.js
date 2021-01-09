@@ -36,7 +36,7 @@ const questions = [
         type: 'list',
         message: 'Which License did you use?',
         name: 'license',
-        choices: ['MIT', 'Apche 2.0', 'GPL 3.0', 'BSD3'],
+        choices: ['MIT'],
     },
     {
         type: 'input',
@@ -52,35 +52,42 @@ const questions = [
 
 inquirer.prompt(questions)
 .then((data) =>{
-    const fileName = `${data.title}.md`;
-    const template = `# ${data.title}
+    const fileName = `README.md`;
+    const template = `# ${data.title}  
+![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)
 
-## TOC
+## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#test)
 * [Contribution Guidelines](#Contribution)
 * [FAQs](###Questions)
 
-# Description
+# Description:
 ${data.description}
 
-# Installation Instructions
+# Installation Instructions:
 ${data.installation}
 
-# Usage Information
+# Usage Information:
 ${data.usage}
 
-# Constribution Guidelines
+# Constribution Guidelines:
 ${data.contribution}
 
-# Test Instructions
+# Test Instructions:
 ${data.test}
 
-![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)
+# Licenses Used:
+The MIT License 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### Questions?
+Contact me through Github:
 [Git Hub](https://github.com/${data.username})
 Or send an email to: ${data.email}
     `
