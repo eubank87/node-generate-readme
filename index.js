@@ -60,8 +60,9 @@ inquirer.prompt(questions)
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Testing](#Test)
 * [Contribution Guidelines](#Contribution)
+* [Testing](#Test)
+* [License](#License)
 * [FAQs](###Questions)
 
 # Description:
