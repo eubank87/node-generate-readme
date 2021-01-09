@@ -19,10 +19,10 @@ Download VS Code and node.
 
 ## Usage:
 Can be used in external terminal on main machine or inside integrated terminal of VS Code.
-![Terminal Start](terminal-start.png)
-![Read Me Done](readme-done.png)
-![Side by Side](sideby-side.png)
-![Active Link](active-link.png)
+![Terminal Start](./assets/terminal-start.png)
+![Read Me Done](./assets/readme-done.png)
+![Side by Side](./assets/sideby-side.png)
+![Active Link](./assets/active-link.png)
 
 ## Contribution:
 Submit a pull request or contact me for more info.
