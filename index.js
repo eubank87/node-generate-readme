@@ -57,9 +57,10 @@ inquirer.prompt(questions)
 ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)
 
 ## Table of Contents:
-* [Installation](#installation)
-* [Usage](#usage)
-* [Testing](#test)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Testing](#Test)
 * [Contribution Guidelines](#Contribution)
 * [FAQs](###Questions)
 
@@ -72,7 +73,7 @@ ${data.installation}
 # Usage Information:
 ${data.usage}
 
-# Constribution Guidelines:
+# Contribution Guidelines:
 ${data.contribution}
 
 # Test Instructions:
