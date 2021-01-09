@@ -19,6 +19,10 @@ Download VS Code and node.
 
 ## Usage:
 Can be used in external terminal on main machine or inside integrated terminal of VS Code.
+![Terminal Start](terminal-start.png)
+![Read Me Done](readme-done.png)
+![Side by Side](sideby-side.png)
+![Active Link](active-link.png)
 
 ## Contribution:
 Submit a pull request or contact me for more info.
@@ -35,7 +39,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Links:
-[Deployed Site/Related Links](https://youtu.be/JvfEjvdHzlw)
+[Deployed Site/Related Links](https://youtu.be/Ed5BTmui7VQ)
 
 ## Questions?
 Contact me through Github:
