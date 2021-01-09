@@ -58,11 +58,11 @@ inquirer.prompt(questions)
 
 ## Table of Contents:
 * [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contribution Guidelines](#Contribution)
-* [Testing](#Test)
-* [License](#License)
+* [Installation](#Installation Instructions)
+* [Usage](#Usage Information)
+* [Contribution Guidelines](#Contribution Guidelines)
+* [Testing](#Test Instructions)
+* [License](#License Used)
 * [FAQs](##Questions)
 
 # Description:
