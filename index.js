@@ -52,17 +52,17 @@ const questions = [
 
 inquirer.prompt(questions)
 .then((data) =>{
-    const fileName = `README.md`;
+    const fileName = `${data.title}.md`;
     const template = `# ${data.title}  
 ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)
 
 ## Table of Contents:
 * [Description](#Description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribution Guidelines](#contribution)
-* [Testing](#test)
-* [License](#licenses)
+* [Installation](##installation)
+* [Usage](##usage)
+* [Contribution Guidelines](##contribution)
+* [Testing](##test)
+* [License](##license)
 * [FAQs](##Questions)
 
 ## Description:
